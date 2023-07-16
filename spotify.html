@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="spotify.css">
+    <title>spotify clone</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo"><img src="logo.png" alt="spotify"><p>Spotify</p></div>
+            <div class="home border"><p>Home</p></div>
+            <div class="search border"><p>search  <i class="fa-solid fa-magnifying-glass"></i></p></div>
+            <div class="about border"><p>About us</p></div>
+            <div class="contact border"><p>Contact Us</p></div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-part">
+            <h1>Playlist For You</h1>
+            <div class="songlist">
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="1" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="2" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="3" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="4" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="5" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="6" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="7" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+                <div class="songitem">
+                    <div class="songimg"><img alt="img"></div>
+                    <span class="songname">let me love you</span>
+                    <span class="timeplay">5:30  <i id="8" class="fa-regular playsong fa-circle-play"></i> </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="bottom">
+        <div class="songlogo">
+            <img id="sl" alt="song">
+            <div class="songdetail">
+                <p id="name">xyz1</p>
+                <p id="artist">Taylor Swift</p>
+                <img src="playing.gif" alt="gif" class="gifimg">
+            </div>
+        </div>   
+       <div class="songplay">
+        <input type="range" name="progress" id="progress" min="0" value="0" max="100">
+        <div class="play">
+            <i class="fa-solid fa-backward-fast" id="bb"></i>
+            <i class="fa-regular fa-circle-play" id="pb"></i>
+            <i class="fa-solid fa-forward-fast" id="fb"></i>
+        </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
